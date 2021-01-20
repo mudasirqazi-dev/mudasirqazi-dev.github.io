@@ -1,0 +1,144 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.small-img {
+    cursor: pointer;
+    height: 200px;
+    width: 280px;
+    opacity: 0.7;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid lightblue;
+    border-radius: 5px; 
+}
+
+.small-img:hover {
+    opacity: 1;
+    border: 1px solid lightseagreen;
+}
+
+.small-img-selected {
+    opacity: 1;
+    border: 1px dashed purple;
+}
+
+.big-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    height: auto;
+    border-radius: 5px;
+    height: 400px;
+    width: 600px;
+    -webkit-box-shadow: 0 0 0.2rem purple;
+    box-shadow: 0 0 0.2rem purple;
+}
+
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(66, 65, 65);
+    font-size: 30px;
+}
+
+.badge {
+    margin: 3px;
+    font-weight: lighter;
+}
+
+.gifs-container {
+    width: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+    float: left;
+    display: flex;
+}
+
+.row-details {
+    margin-top: 30px;
+}
+
+.contacts {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contacts i {
+    margin: 10px;
+    font-size: 20px;
+}
+.contacts img {
+    margin: 10px;
+}
+.contacts table tbody tr td {
+    margin-right: 10px;
+    display: inline-block;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 6px;
+} 
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: purple; 
+}
+
+::-moz-scrollbar {
+    width: 6px;
+    height: 6px;
+} 
+::-moz-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-moz-scrollbar-thumb {
+    background: #888; 
+}
+::-moz-scrollbar-thumb:hover {
+    background: purple; 
+}
+
+.tbl-details tr td {
+    margin: 20px;
+}
+
+.tbl-details tr td strong {
+    margin-right: 50px;
+}
+ 
+.intro {
+    clear: both;
+    border-left: 5px solid #28a745;
+    padding-left: 15px;
+}
+
+.dp {
+    float: left;
+    width: 85px !important;
+    height: 85px !important;
+    border-radius: 50px;
+    margin: 10px;
+}
+.page-header h2 {
+    display: inline-block;
+    padding-top: 35px;
+}
+.flag {
+    width: 35px;
+    height: auto;
+    border: 1px solid darkgreen;
+    margin-left: 10px;
+    margin-bottom: 14px;
+    box-shadow: 0 8px 6px -6px #828282;
+}
